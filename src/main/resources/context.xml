@@ -50,11 +50,11 @@
 	<bean id="userDao" class="com.engblog.www.angularrestspringsecurity.dao.user.JpaUserDao">
 	</bean>
 	
-	<bean id="dataBaseInitializer" class="com.engblog.www.angularrestspringsecurity.dao.DataBaseInitializer" init-method="initDataBase">
-		<constructor-arg ref="userDao" />
-		<constructor-arg ref="newsEntryDao" />
-		<constructor-arg ref="passwordEncoder" />
-	</bean>
+	<!--<bean id="dataBaseInitializer" class="com.engblog.www.angularrestspringsecurity.dao.DataBaseInitializer" init-method="initDataBase">-->
+		<!--<constructor-arg ref="userDao" />-->
+		<!--<constructor-arg ref="newsEntryDao" />-->
+		<!--<constructor-arg ref="passwordEncoder" />-->
+	<!--</bean>-->
 
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
