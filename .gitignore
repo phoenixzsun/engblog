@@ -6,5 +6,6 @@
 *~
 *.swp
 *.bat
+*.iml
 target
 *.log 
