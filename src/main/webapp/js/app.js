@@ -177,7 +177,7 @@ services.factory('UserService', function($resource) {
 					method: 'POST',
 					params: {'action' : 'authenticate'},
 					headers : {'Content-Type': 'application/x-www-form-urlencoded'}
-				},
+				}
 			}
 		);
 });
